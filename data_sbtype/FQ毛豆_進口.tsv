@@ -1,0 +1,15 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Sun Apr 06 2008 00:00:00 GMT+0800 (CST),台北一,進口,null,140,10
+Sat Aug 16 2003 00:00:00 GMT+0800 (CST),台北一,進口,null,130,310
+Thu Aug 21 2003 00:00:00 GMT+0800 (CST),台北一,進口,null,120,300
+Sat Aug 23 2003 00:00:00 GMT+0800 (CST),台北一,進口,null,130,10
+Wed Dec 22 2010 00:00:00 GMT+0800 (CST),台北一,進口,null,50,100
+Thu Jan 27 2011 00:00:00 GMT+0800 (CST),台北一,進口,null,150,60
+Mon Jan 31 2011 00:00:00 GMT+0800 (CST),台北一,進口,null,80,70
+Tue Jul 04 2006 00:00:00 GMT+0800 (CST),台北二,進口,null,80,120
+Thu Jul 23 2009 00:00:00 GMT+0800 (CST),台北一,進口,null,110,140
+Wed May 26 2004 00:00:00 GMT+0800 (CST),台北一,進口,null,35,360
+Sun May 14 2006 00:00:00 GMT+0800 (CST),台北一,進口,null,90,60
+Sun Nov 18 2007 00:00:00 GMT+0800 (CST),台北一,進口,null,65,240
+Wed Nov 09 2011 00:00:00 GMT+0800 (CST),台北一,進口,null,120,18
+Sat Nov 24 2012 00:00:00 GMT+0800 (CST),台中市,進口,null,26,3

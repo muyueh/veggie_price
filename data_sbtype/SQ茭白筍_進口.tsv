@@ -1,0 +1,8 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Wed Apr 03 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,45,600
+Thu Apr 04 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,37.8,2400
+Sun Apr 07 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,37.5,2400
+Mon Apr 08 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,30,1080
+Thu Apr 11 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,20.3,1800
+Fri Apr 12 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,20,960
+Sun Apr 14 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,20.2,1200

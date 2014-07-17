@@ -1,0 +1,25 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Fri Aug 24 2012 00:00:00 GMT+0800 (CST),高雄市,其他,null,22,50
+Fri Jul 05 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Thu Jul 11 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Sat Jul 20 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,25,40
+Wed Jul 24 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,25,40
+Fri Jul 26 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,25,20
+Sat Jul 27 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,25,40
+Sun Jul 28 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,25,20
+Tue Jun 12 2007 00:00:00 GMT+0800 (CST),台北二,其他,null,10,24
+Thu Jun 14 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,15,48
+Sat Jun 16 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,15.2,72
+Sun Jun 17 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,15,96
+Sat Jun 23 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,13,72
+Sun Jun 24 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,12.7,72
+Wed Jun 27 2007 00:00:00 GMT+0800 (CST),台北一,其他,null,8,60
+Sat Jun 25 2011 00:00:00 GMT+0800 (CST),台北一,其他,null,8,12
+Tue Jun 11 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,5,20
+Wed Jun 12 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,5,20
+Tue Jun 18 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Thu Jun 20 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Tue Jun 25 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Fri Jun 28 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Sun Jun 30 2013 00:00:00 GMT+0800 (CST),台中市,其他,null,30,40
+Fri Oct 24 2008 00:00:00 GMT+0800 (CST),台北二,其他,null,5,20

@@ -1,0 +1,9 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Fri Jan 15 2010 00:00:00 GMT+0800 (CST),三重市,進口,null,15,200
+Fri Jul 12 2002 00:00:00 GMT+0800 (CST),台北一,進口,null,20,220
+Sun Jul 11 2004 00:00:00 GMT+0800 (CST),台北一,進口,null,53,50
+Tue Jun 25 2002 00:00:00 GMT+0800 (CST),高雄市,進口,null,35,120
+Wed Mar 03 2004 00:00:00 GMT+0800 (CST),台北一,進口,null,30,36
+Tue Nov 04 2003 00:00:00 GMT+0800 (CST),台北一,進口,null,45,230
+Thu Oct 04 2001 00:00:00 GMT+0800 (CST),台北一,進口,null,100,50
+Wed Oct 24 2001 00:00:00 GMT+0800 (CST),台北一,進口,null,110,50

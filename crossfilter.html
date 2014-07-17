@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Veggie Panel</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Exo+2:100' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" type="text/css" href="http://localhost/vis/lib/css/dc.css"/>
+<link rel="stylesheet" href="http://localhost/vis/lib/bootstrap/css/bootstrap.min.css">
+
+<script type="text/javascript" src="http://localhost/vis/lib/js/d3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost/vis/lib/js/colorbrewer.v1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost/vis/lib/js/prelude-browser-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost/vis/lib/js/crossfilter.min.js"></script>
+<script type="text/javascript" src="http://localhost/vis/lib/js/dc.js"></script>
+
+<script src="http://localhost/vis/lib/js/jquery.min.js"></script>
+<script src="http://localhost/vis/lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<style type="text/css">
+</style>
+
+</head>
+<body>
+<img src="http://muyueh.com/seeall/image/veggie.png" style="display:none;"> 
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36523378-1', 'muyueh.com');
+  ga('send', 'pageview');
+</script>
+
+<style type="text/css">
+body{
+	background-color: rgb(39,39,39);
+}
+
+.axis{
+	fill:white;
+}
+
+.dc-chart .axis path, .axis line{
+	stroke:white;
+}
+
+.onerow{
+	float: left;
+}
+
+.dc-table-group{
+	display: none;
+}
+.dc-table-column._0, .tbheader._0{
+	width: 80px;
+	display: inline-block;
+}
+.dc-table-column._1, .tbheader._1{
+	width: 60px;
+	display: inline-block;
+}
+.dc-table-column._2, .tbheader._2{
+	width: 60px;
+	display: inline-block;
+}
+.dc-table-column._3, .tbheader._3{
+	width: 60px;
+	display: inline-block;
+}
+.dc-table-column._4, .tbheader._4{
+	width: 60px;
+	display: inline-block;
+}
+
+.dc-table-column{
+	text-align: right;
+}
+
+.datatable{
+	/*font-family: 'Exo 2', 'Heiti TC', sans-serif;*/
+	font-family: monospace;
+	position: fixed;
+	right: 0px;
+	top: 20px;
+	
+	/*left: 360px;
+	top: 310px;*/
+	/*color: rgba(255, 255, 255, 0.6)*/
+	color: white;
+}
+
+.tbheader{
+	color: rgba(255, 255, 255, 0.8)
+}
+
+.container{
+	position: fixed;
+	top: 520px;
+	width: 900px;
+}
+
+.c_k {
+	color: white;
+}
+.extent {
+	fill: "steelblue";
+	fill-opacity: .125;
+	stroke: #fff;
+}
+
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: white;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	/*font-family: sans-serif;*/
+	font-size: 11px;
+}
+
+.pricerow {
+	margin-top: 22px;
+}
+
+.title {
+	color:white;
+}
+
+</style>
+
+	<div class="onerow pricerow">
+		<div class="pricePerTyp"></div>	
+		<div class="pricePerYear"></div>
+		<div class="pricePerMonth"></div>
+		
+		<div class="pricePerMkt"></div>
+		<!-- <div class="pricePerWeekDay"></div> -->
+		<div class="pricePerSb"></div>
+	</div>	
+
+	<div class="onerow">
+		<div class="quanPerTyp"></div>
+		<div class="quanPerYear"></div>
+		<div class="quanPerMonth"></div>
+		
+		<div class="quanPerMkt"></div>
+		<!-- <div class="quanPerWeekDay"></div> -->
+		<div class="quanPerSb"></div>
+	</div>
+	<div class="onerow">
+		<div class="pvsq"></div>
+		<div class="pvst"></div>
+	</div>
+	<div class="onerow">
+		<div class="datatable">
+				<thead class="tableheader">
+						<span class="tbheader _0">日期</span>
+						<span class="tbheader _1">市場</span>
+						<span class="tbheader _2">價格</span>
+						<span class="tbheader _3">公斤</span>						
+						<span class="tbheader _4">種類</span>
+				</thead>
+		</div>
+	</div>
+	<div class="container">
+		<!-- <div class="row"> -->
+			<!-- <div class="col-lg-12"> -->
+				<h1><span class="title"></span></h1> <span class="count"></span>
+				<p>Top row is Price, second row is quantity, the top row, rom left to right: Typhon over Price, Year over Price, Month over price, Market over Price, Vegetable subtytpe over Price.</p>
+				<div class="btn-group index-holder">
+					<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						See other
+					</button>
+				</div>
+			<!-- </div> -->
+			
+		<!-- </div> -->
+	</div>
+
+  <script type="text/javascript" src="./veggie_canvas_5.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Sun Jul 01 2012 00:00:00 GMT+0800 (CST),台北一,其他,null,35,8
+Sat Jul 06 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10,120
+Sat Jul 13 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,14,120
+Sun Jul 14 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,15.6,288
+Tue Jul 16 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,13.1,168
+Wed Jul 17 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10,120
+Fri Jul 19 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,15,240
+Sat Jul 20 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,15,48
+Tue Jul 23 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,8,984
+Wed Jul 24 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10.2,720
+Thu Jul 25 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10,1200
+Fri Jul 26 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,9.7,1200
+Sat Jul 27 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10,1200
+Sun Jul 28 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10.6,1200
+Tue Jul 30 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,10,840
+Wed Jul 31 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,8,1320
+Sun Jun 03 2012 00:00:00 GMT+0800 (CST),三重市,其他,null,16.5,630
+Sun Jun 30 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,12.5,68
+Thu Mar 14 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,17,48
+Fri Mar 15 2013 00:00:00 GMT+0800 (CST),台北一,其他,null,28,12
+Fri May 11 2012 00:00:00 GMT+0800 (CST),台北一,其他,null,40,12

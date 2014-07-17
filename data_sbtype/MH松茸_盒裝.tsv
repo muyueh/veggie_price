@@ -1,0 +1,19 @@
+date,mktname,sbtype,transformation,middleprice,quantity
+Tue Apr 17 2012 00:00:00 GMT+0800 (CST),桃園縣,盒裝,null,5,60
+Thu Feb 12 2009 00:00:00 GMT+0800 (CST),台中市,盒裝,null,16.1,180
+Sun Feb 15 2009 00:00:00 GMT+0800 (CST),台中市,盒裝,null,32,160
+Tue Feb 17 2009 00:00:00 GMT+0800 (CST),台中市,盒裝,null,20,256
+Wed Feb 18 2009 00:00:00 GMT+0800 (CST),台中市,盒裝,null,20,128
+Thu Feb 19 2009 00:00:00 GMT+0800 (CST),台中市,盒裝,null,20,128
+Tue Jul 17 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,28,36
+Sat May 20 2006 00:00:00 GMT+0800 (CST),三重市,盒裝,null,10,150
+Sat May 20 2006 00:00:00 GMT+0800 (CST),台中市,盒裝,null,70,30
+Tue May 23 2006 00:00:00 GMT+0800 (CST),三重市,盒裝,null,7,30
+Tue May 23 2006 00:00:00 GMT+0800 (CST),台中市,盒裝,null,40,30
+Sun Nov 04 2012 00:00:00 GMT+0800 (CST),台中市,盒裝,null,93,6
+Fri Oct 05 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,24,24
+Sat Oct 06 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,30,12
+Tue Oct 09 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,26,12
+Sat Oct 20 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,28,12
+Fri Sep 30 2011 00:00:00 GMT+0800 (CST),台北二,盒裝,null,20,72
+Tue Sep 25 2012 00:00:00 GMT+0800 (CST),台北二,盒裝,null,22,24

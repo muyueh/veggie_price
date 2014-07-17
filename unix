@@ -1,0 +1,8 @@
+awk -F "\t" '{print $2 "\t" $3 "\t" $4 "\t" $5 "\t" $7 "\t" $10 }' LY4人參葉.tsv > temp.tsv
+
+
+# drop column
+
+for tsv in *.tsv
+do awk -F "\t" '{print $2 "\t" $3 "\t" $4 "\t" $5 "\t" $7 "\t" $10 }' "$tsv" > tempfile && mv tempfile "$tsv"
+done
