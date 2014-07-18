@@ -59,7 +59,6 @@ c = d3.scale.category20!
 color = ->	
 	d3.rgb (c it) .brighter 1
 
-console.log color
 
 view = "middleprice"
 
@@ -69,6 +68,9 @@ lstyphon = {}
 lscolor = {}
 
 lsveggie = ["LI萵苣菜","FY玉米","LA甘藍","SG大蒜","LC包心白","FG苦瓜","SE青蔥","LG芹菜","FV辣椒","FL豌豆","FN敏豆","FK甜椒","FI茄子","FH扁蒲","FF絲瓜","FJ番茄","LJ芥菜","LB小白菜","SP薑","SA蘿蔔","FT南瓜","FB花椰菜","SJ芋","SX芽菜類","FM菜豆","FC胡瓜","SB胡蘿蔔","FD花胡瓜","SO甘薯","FE冬瓜","LF蕹菜","LK芥藍菜","SV蘆筍","LM莧菜","FR青花苔","SF韭菜","SU薯蕷","LH菠菱菜","SD洋蔥","OX其他","SQ茭白筍","LD青江白菜","SC馬鈴薯","SF3韭菜(韭菜花)","LX蕨菜","SW球莖甘藍","FU準人瓜","LN油菜","FP萊豆","SH1竹筍(麻竹筍)","OA鹹菜","LL茼蒿","LE皇宮菜","SM牛蒡","FZ落花生","SN蓮藕","LP2九層塔","SS大心菜","OH桶筍","SF2韭菜(韭菜黃)","FQ毛豆","LO甘薯葉","LP芫荽","LQ紅鳳菜","LT海菜","FA1黃秋葵","SL1豆薯","MA洋菇","ME金絲菇","OE醃瓜","LZ薺菜","SH2竹筍(綠竹筍)","MC木耳","SH5竹筍(烏殼綠)","MD香菇","SR菱角","MI秀珍菇","MJ杏鮑菇","MF蠔菇","MB草菇","SI萵苣莖","SK荸薺","LS茴香","OG熟筍","FS越瓜","LV巴西利","OB雪里紅","OD蘿蔔乾","MX其他菇類","MK鴻禧菇","SH4竹筍(孟宗筍)","FU3石蓮花","ML珊瑚菇","FW金針花","OC榨菜","FX2虎豆(福豆)","SZ3金針筍","OI4筍茸","MN柳松菇","SH7竹筍(去殼)","OI3筍片","OI1筍乾","OI2筍絲","LU菾菜","LY1西洋菜","SZ1半天筍","FX1花豆","SZ4百合","OL朴菜","ST蕎頭","SH3竹筍(桂竹筍)","MH松茸","LY2黑甜仔菜","MG白菇","SH6竹筍(箭竹筍)","FA0其他花類","MM猴頭菇","FW2洛神花","SZ5草石蠶","LY5珍珠菜","LT3水蓮","LY6香椿","SZ6半天花","FA9百果(進口)","FO蠶豆","LY3豬母菜","LY4人參葉","SZ2甘蔗筍","LR塌棵塔","FA2樊花","SY慈菇","SL2菊芋(雪蓮薯)","FA4瓊花","SH9竹筍(進口)","ZZ其他"]
+lsgdname = ["萵苣菜" "玉米" "甘藍" "大蒜" "包心白" "苦瓜" "青蔥" "芹菜" "辣椒" "豌豆" "敏豆" "甜椒" "茄子" "扁蒲" "絲瓜" "番茄" "芥菜" "小白菜" "薑" "蘿蔔" "南瓜" "花椰菜" "芋" "芽菜類" "菜豆" "胡瓜" "胡蘿蔔" "花胡瓜" "甘薯" "冬瓜" "蕹菜" "芥藍菜" "蘆筍" "莧菜" "青花苔" "韭菜" "薯蕷" "菠菱菜" "洋蔥" "其他" "茭白筍" "青江白菜" "馬鈴薯" "韭菜(韭菜花)" "蕨菜" "球莖甘藍" "準人瓜" "油菜" "萊豆" "竹筍(麻竹筍)" "鹹菜" "茼蒿" "皇宮菜" "牛蒡" "落花生" "蓮藕" "九層塔" "大心菜" "桶筍" "韭菜(韭菜黃)" "毛豆" "甘薯葉" "芫荽" "紅鳳菜" "海菜" "黃秋葵" "豆薯" "洋菇" "金絲菇" "醃瓜" "薺菜" "竹筍(綠竹筍)" "木耳" "竹筍(烏殼綠)" "香菇" "菱角" "秀珍菇" "杏鮑菇" "蠔菇" "草菇" "萵苣莖" "荸薺" "茴香" "熟筍" "越瓜" "巴西利" "雪里紅" "蘿蔔乾" "其他菇類" "鴻禧菇" "竹筍(孟宗筍)" "石蓮花" "珊瑚菇" "金針花" "榨菜" "虎豆(福豆)" "金針筍" "筍茸" "柳松菇" "竹筍(去殼)" "筍片" "筍乾" "筍絲" "菾菜" "西洋菜" "半天筍" "花豆" "百合" "朴菜" "蕎頭" "竹筍(桂竹筍)" "松茸" "黑甜仔菜" "白菇" "竹筍(箭竹筍)" "其他花類" "猴頭菇" "洛神花" "草石蠶" "珍珠菜" "水蓮" "香椿" "半天花" "百果(進口)" "蠶豆" "豬母菜" "人參葉" "甘蔗筍" "塌棵塔" "樊花" "慈菇" "菊芋(雪蓮薯)" "瓊花" "竹筍(進口)" "其他"]
+tbgdname = lists-to-obj lsveggie, lsgdname
+
 enname = ["Lettuce","Corn","Cabbage","Garlic","White Heart Bag","Bitter","Scallion","Celery","Chili","Peas","Min beans","Sweet pepper","Eggplant","Flat Po","Loofah","Tomatoes","Mustard","Cabbage","Ginger","Radish","Pumpkin","Cauliflower","Taro","Sprouts class","Kidney bean","Cucumber","Carrot","Flowers cucumber","Sweet","Melon","Ipomoea","Kale","Asparagus","Amaranth","Blue moss","Chives","Yam","Bo Ling dish","Onion","Other","Coba","Bok cabbage","Potato","Leek ( chives )","Bracken","Kohlrabi","Quasi- human melon","Cole","Lima bean","Bamboo ( bamboo shoot )","Pickle","Chrysanthemum","Palace dish","Burdock","Groundnut","Lotus","Basil","Big cabbage","Barrel shoots","Leek ( leek yellow )","Edamame","Sweet potato leaves","Coriander","Gynura","Seaweed","Okra","Yam bean","Mushroom","Watkins mushrooms","Pickled melon","Shepherd's purse","Shoots ( green shoots )","Fungus","Bamboo shoots ( black shell Green )","Mushrooms","Water chestnut","Oyster mushrooms","Mushroom","Oyster mushrooms","Straw mushroom","Stem lettuce","Water chestnuts","Fennel","Cooked bamboo shoots","Pickling melon","Basili","Potherb mustard","Radish","Other mushrooms","Hongxi mushrooms","Bamboo shoots ( Meng Zong shoots )","Stone Lotus","Coral mushroom","Daylily","Mustard","Tiger beans ( beans Fu )","Lily shoots","Velvet shoots","Liu pine mushrooms","Bamboo shoots ( shelled )","Sunpian","Bamboo shoots","Sunsi","Chard","Watercress","Half-day shoot","Bean flowers","Lily","Pak dish","Shallots","Bamboo ( bamboo shoots )","Matsutake","Aberdeen black sweet dish","White mushrooms","Bamboo ( bamboo shoots )","Other flowers","Hericium","Roselle","Chinese artichoke","Lysimachia","Shuilian","Toon","Spend half a day","Mince ( import )","Broad bean","Sow vegetables","Ginseng leaf","Bamboo cane","Narinosa tower","Fan Flower","Arrowhead","Jerusalem artichoke ( lotus potato )","Viburnum","Bamboo shoots ( import )","Other"]
 
 lsenname = lists-to-obj lsveggie, enname
@@ -153,7 +155,7 @@ if window.location.hash
 		
 	
 
-err, tsvData <- d3.tsv "./data/" + name + ".tsv"
+err, tsvData <- d3.tsv "./wo_out_data/" + name + ".tsv"
 
 tsvData = tsvData
 	.filter ->
@@ -184,12 +186,6 @@ tsvData = tsvData
 		
 		return true
 	.sort (a, b) -> a.date - b.date
-
-# console.log tsvData
-
-
-
-
 
 
 
@@ -305,8 +301,6 @@ get-max = (ls)->
 chrt-p-max = (get-max ls-p-chrt) * max-mlt
 chrt-q-max = (get-max ls-q-chrt) * max-mlt
 
-# console.log chrt-q-max
-# console.log chrt-p-max
 
 # barHeight = 80
 
@@ -318,7 +312,7 @@ barHeight = 160
 
 
 marginJson =	{
-	"top": 0
+	"top": 10
 	"right": 0
 	"left": 38
 	"bottom": 50
@@ -824,11 +818,14 @@ fmtpnq = ->
 # 	]
 
 
+addzero = (n)->
+	if n < 10 then ("0" + n) else n
+
 obj-to-td = ->
 	n = (it.date.getFullYear! % 100) 
 	[
 		{
-			"txt": "'" + (if n < 10 then ("0" + n) else n) + "/" + (it.date.getMonth! + 1) + "/" + it.date.getDate!
+			"txt": "'" + addzero(n) + "/" + addzero(it.date.getMonth! + 1) + "/" + addzero(it.date.getDate!)
 			"class": "dc-table-column _0"
 		},
 		{
@@ -882,14 +879,16 @@ updateGraph = ->
 	# canvasData := ctx.getImageData(0, 0, canvasWidth, canvasHeight)
 	clear!
 	clear_sm!
-	console.log monthDim.top(Infinity).length
+	# console.log monthDim.top(Infinity).length
+	d3.selectAll ".count"
+		.text yearDim.top(Infinity).length
 
 	chrt-p-max := (get-max ls-p-chrt) * max-mlt
 	chrt-q-max := (get-max ls-q-chrt) * max-mlt
 	# cannot figure out how to redraw axis
 	
 
-	all = monthDim.top(Infinity)
+	all = yearDim.bottom(Infinity)
 
 	all
 		.map ->
@@ -999,27 +998,43 @@ function numberWithCommas(x)
 
 
 set-list = (holder-name,list-data, on-click)->
-	uls = d3.selectAll holder-name .append "ul"
+	uls = d3.selectAll holder-name
+		.append "ul"
 		.attr "class" "dropdown-menu"
 		.attr "role" "menu"
 
-	uls.selectAll "li"
-		.data list-data
-		.enter!
-		.append "li"
-		# .attr "class" -> 
-		# 	if it.act is null then return "divider"
-		# 	if it.act is "header" then return "disabled dropdown-header "
-		# 	if it.type is "viewsubind" then return "disabled subind-able"
-		.append "a"
-		.style "cursor" "pointer"
-		.attr "data-target" "#"
-		.attr "class" "dropdown-action"
-		# .attr "id" -> "action" + it.act
-		# .attr "href" "./scale.html"
-		.text -> it
-		.on "click" -> on-click(it)
+	rw = uls
+		.append "div"
+		.attr {
+			"class": "row"
+		}
+		.style {
+			"width": "1400px"
+		}
 
+	lg = list-data.length
+	ncut = 12
+	cut = ~~(lg / ncut)
+
+	rw.selectAll "ul"
+		.data [0 to (ncut - 1)]
+		.enter!
+		.append "ul"
+		.attr {
+			"class": "list-unstyled col-lg-" + (~~(12 / ncut))
+		}
+		.each (c)-> 
+			d3.select this
+				.selectAll "li"
+				.data (list-data.filter (it, i)-> i > (c * cut) and i < ((c + 1) * cut))
+				.enter!
+				.append "li"
+				.append "a"
+				.style "cursor" "pointer"
+				.attr "data-target" "#"
+				.attr "class" "dropdown-action"
+				.text -> tbgdname[it]
+				.on "click" -> on-click(it)
 
 set-list(".index-holder", lsveggie, -> window.open('./crossfilter.html#' + it,'_blank') )
 
